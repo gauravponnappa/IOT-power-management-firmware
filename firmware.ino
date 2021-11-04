@@ -287,7 +287,7 @@ void loop() {
       pulse++;
       
       Firebase.setInt(firebaseData, "/users/RPQ57PCuiGWetgtlZpt4OVGOOPC3/data/pulse", pulse);
-      Firebase.setInt(firebaseData, "/users/RPQ57PCuiGWetgtlZpt4OVGOOPC3/data/hours");
+      Firebase.setInt(firebaseData, "/users/RPQ57PCuiGWetgtlZpt4OVGOOPC3/data/hours",hour);
       
       Serial.println(hour);
       Serial.print(F(" hours"));
